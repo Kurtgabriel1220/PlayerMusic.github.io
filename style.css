@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #575656;
+    color: #ddd;
+}
+
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+h2 {
+    margin-bottom: 4px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+p {
+    font-size: 13px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+progress {
+    height: 4px;
+    width: 0;
+    background-color: #333;
+}
+
+/* Descricao */
+
+.description {
+    width: 300px;
+    
+}
+
+.singerName {
+
+}
+
+/*  */
+
+.duracao {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.barra {
+    width: 300px;
+    height: 6px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.point {
+    width: 15px;
+    height: 15px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-right: -10px;
+}
+
+.time {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+
+}
+
+/* icons */
+
+.botaoPlay, .botaoPause {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.setas {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.botaoPause {
+    display: none;
+}
+
+.player {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
